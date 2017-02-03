@@ -10,9 +10,9 @@
 
 ## Preface
 
-The default Github labels may be OK for some projects, but there's no question they can be improved, and many projects add their own labels. Dave Lunny has written about a set of labels whcih he believed were saner, and made managing a project with labels much more effective. https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63
+The default Github labels may be OK for some projects, but there's no question they can be improved, and many projects add their own labels. Dave Lunny has written about a set of labels which he believed were saner, and made managing a project with labels much more effective. https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63
 
-I decided to trial these labels on the repo that's responsible for the JSON-Schema website, json-schema.org. While they mostly make sense, I quickly found that some labels are a little open to interpritation. The artcile outlines the reasoning why these new labels are better than the labels Github provide, however it doesn't include any explanation for each label, which is fine given the intention, and leaves teams to work out their own interpritations that suite their needs.
+I decided to trial these labels on the repo that's responsible for the JSON-Schema website, json-schema.org. While they mostly make sense, I quickly found that some labels are a little open to interpretation. The article outlines the reasoning why these new labels are better than the labels Github provides, however it doesn't include any explanation for each label, which is fine given the intention, and leaves teams to work out their own interpretations that suite their needs.
 
 If you're looking for some definitions, and maybe some examples, then hopefully my outline will give you a basis to work on. Feel free to take these and amend them as you wish.
 
@@ -31,7 +31,7 @@ Most of the labels can be applied to both Issues and Pull Requests, however for 
 ### Priority
 
 #### "Priority: Critical"
-This should be dealt with ASAP. Not fiixng this issue would be a serious error.
+This should be dealt with ASAP. Not fixing this issue would be a serious error.
 #### "Priority: High"
 After critical issues are fixed, these should be dealt with before any further issues.
 #### "Priority: Medium"
@@ -42,7 +42,7 @@ This issue can probably be picked up by anyone looking to contribute to the proj
 ### Type
 
 #### "Type: Bug"
-Inconsitencies or issues which will cause an issue or problem for users or implementors.
+Inconsistencies or issues which will cause an issue or problem for users or implementors.
 #### "Type: Maintenance"
 Updating phrasing or wording to make things clearer or removing ambiguity, without changing the functionality.
 #### "Type: Enhancement"
@@ -54,7 +54,7 @@ A query or seeking clarification on parts of the spec. Probably doesn't need the
 
 The status label may apply to both Issues and Pull Requests.
 #### "Status: Available"
-No one has claimed responsbility for resolving this issue. Generally this will be applied to bugs and enhancement issues, but may be applied to others.
+No one has claimed responsibility for resolving this issue. Generally this will be applied to bugs and enhancement issues, but may be applied to others.
 #### "Status: Accepted"
 It's clear what the subject of the issue is about, and what the resolution should be.
 #### "Status: Blocked"
@@ -66,7 +66,7 @@ This issue is being worked on, and has someone assigned.
 #### "Status: On Hold"
 Similar to blocked, but is assigned to someone. May also be assigned to someone because of their experience, but it's recognised they are unable to process the issue at this time.
 #### "Status: Review Needed"
-The issue has a PR attached to it which needs to be reviewed. Should recieve review by others in the community, and at least one member / comitter. Specifics on when merging PRs is allowed is still up for debate.
+The issue has a PR attached to it which needs to be reviewed. Should receive review by others in the community, and at least one member / comitter. Specifics on when merging PRs is allowed is still up for debate.
 #### "Status: Revision Needed"
 At least two people have seen issues in the PR that makes them uneasy. Submitter of PR needs to revise the PR related to the issue.
 #### "Status: Abandoned"
@@ -91,8 +91,8 @@ A further example, *Available* and *Accepted* could happen if the scope and reso
 
 ## Omission
 
-The observent among you will notice that I've not included "Status: Pending". I don't see the value other than as meta-label. It may mean differnet things in different situations, and only adds additional information. Abiguity is not really desired! 
+The observant among you will notice that I've not included "Status: Pending". I don't see the value other than as meta-label. It may mean different things in different situations, and only adds additional information. Ambiguity is not really desired! 
 
 ## Closing
 
-As I said at the begining, take these definitions and alter them to whatever works for your project if you so wish. Faces wern't part of the article, but are part of a related Github repo, and I feel are fitting and useful for the previously mentioned JSON-Schema project. These ideas are only formed of my own personal opinion, and can hopefully be adopted by any project as an initial attempt at reasonable organisation of Issues and Pull Requests.
+As I said at the beginning, take these definitions and alter them to whatever works for your project if you so wish. Faces weren't part of the article, but are part of a related Github repo, and I feel are fitting and useful for the previously mentioned JSON-Schema project. These ideas are only formed of my own personal opinion, and can hopefully be adopted by any project as an initial attempt at reasonable organisation of Issues and Pull Requests.

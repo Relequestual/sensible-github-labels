@@ -18,10 +18,18 @@ If you're looking for some definitions, and maybe some examples, then hopefully 
 
 ## How to use
 
-You don't want to be entering all of these labels manually of course! Hopefully you have node installed, and can install [git-label](https://github.com/jasonbellamy/git-label). I had no luck running the CLI version of git-label, so I created a handy script to add the labels to your Github project. The script uses the Github API, so you'll need a [Personal Access Token](https://github.com/settings/tokens) with the permission to access the repo you want to add labels for.
+This package includes a command `label-me` that can be installed globally to add the labels to a given project using the Github API.
+```
+label-me <user/repo> <api_token>
+```
 
-Checkout this repo, or just copy the script to a file of your choosing. Add your token and set the repo URI, then run the script via command line `node label-me.js`. I didn't see any point in trying to fix the CLI interface, nor making this script into a node package, as node isn't really my thing.
+Install this package globally and then run `label-me`
+```
+npm install -g label-me
+label-me me/my_repo `cat supersecret`
+```
 
+API tokens can be created at https://github.com/settings/tokens
 
 ## Definitions
 __Assignment to Issues or Pull Requests__

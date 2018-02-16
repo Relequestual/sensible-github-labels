@@ -1,0 +1,29 @@
+{
+  "name": "sensible-github-labels",
+  "version": "1.0.0",
+  "description": "Github labels for teams that like workflows and structure",
+  "main": "label-me.js",
+  "bin": {
+    "label-me": "bin/label-me.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Relequestual/sensible-github-labels.git"
+  },
+  "keywords": [
+    "labels",
+    "github"
+  ],
+  "author": "Ben Hutton (https://github.com/Relequestual)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Relequestual/sensible-github-labels/issues"
+  },
+  "homepage": "https://github.com/Relequestual/sensible-github-labels#readme",
+  "dependencies": {
+    "git-label": "^4.1.1"
+  }
+}

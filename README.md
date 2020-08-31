@@ -74,7 +74,7 @@ It's believed that this issue is no longer important to the requestor and no one
 
 ### Faces - When words fail you
 
-#### "¯\\_[ツ]_/¯"
+#### "¯\\\_(ツ)\_/¯"
 Sometimes there's so much discussion on an issue that it's no longer possible to determine what the actual issue is about anymore. As such, new issues should be created, mentioning directly this issue, and probably also specific comments. This issue (probably) won't be closed till the other related issues are resolved, and will probably be locked. 
 #### "❨╯°□°❩╯︵┻━┻"
 Similarly, it seems impossible for people to agree on this issue, and there's been too much discussion for anyone to reasonably read through, understand, and make sense. It probably won't get locked, and people can continue discussing, but it should not be referenced by a PR. If someone wishes to make PRs based on this issue, they should create a new issue, explaining succinctly an issue that needs addressing.
